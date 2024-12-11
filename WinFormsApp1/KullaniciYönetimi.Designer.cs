@@ -36,7 +36,7 @@
             // 
             // KullaniciEkleTextBox
             // 
-            KullaniciEkleTextBox.Location = new Point(36, 32);
+            KullaniciEkleTextBox.Location = new Point(41, 32);
             KullaniciEkleTextBox.Name = "KullaniciEkleTextBox";
             KullaniciEkleTextBox.Size = new Size(122, 55);
             KullaniciEkleTextBox.TabIndex = 0;
