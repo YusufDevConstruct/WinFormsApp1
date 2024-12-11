@@ -38,10 +38,9 @@
             // MalzemeTextBox
             // 
             MalzemeTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            MalzemeTextBox.Location = new Point(99, 40);
-            MalzemeTextBox.Margin = new Padding(3, 4, 3, 4);
+            MalzemeTextBox.Location = new Point(87, 30);
             MalzemeTextBox.Name = "MalzemeTextBox";
-            MalzemeTextBox.Size = new Size(137, 36);
+            MalzemeTextBox.Size = new Size(120, 27);
             MalzemeTextBox.TabIndex = 0;
             MalzemeTextBox.Text = "Malzeme Yönetimi";
             MalzemeTextBox.UseVisualStyleBackColor = true;
@@ -50,10 +49,9 @@
             // DepoTextBox
             // 
             DepoTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            DepoTextBox.Location = new Point(243, 40);
-            DepoTextBox.Margin = new Padding(3, 4, 3, 4);
+            DepoTextBox.Location = new Point(213, 30);
             DepoTextBox.Name = "DepoTextBox";
-            DepoTextBox.Size = new Size(137, 36);
+            DepoTextBox.Size = new Size(120, 27);
             DepoTextBox.TabIndex = 1;
             DepoTextBox.Text = "Depo İşlemleri";
             DepoTextBox.UseVisualStyleBackColor = true;
@@ -62,10 +60,9 @@
             // raporTextBox
             // 
             raporTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            raporTextBox.Location = new Point(387, 40);
-            raporTextBox.Margin = new Padding(3, 4, 3, 4);
+            raporTextBox.Location = new Point(339, 30);
             raporTextBox.Name = "raporTextBox";
-            raporTextBox.Size = new Size(137, 36);
+            raporTextBox.Size = new Size(120, 27);
             raporTextBox.TabIndex = 2;
             raporTextBox.Text = "Stok Raporları";
             raporTextBox.UseVisualStyleBackColor = true;
@@ -74,10 +71,9 @@
             // KullaniciTextBox
             // 
             KullaniciTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            KullaniciTextBox.Location = new Point(531, 40);
-            KullaniciTextBox.Margin = new Padding(3, 4, 3, 4);
+            KullaniciTextBox.Location = new Point(465, 30);
             KullaniciTextBox.Name = "KullaniciTextBox";
-            KullaniciTextBox.Size = new Size(137, 36);
+            KullaniciTextBox.Size = new Size(120, 27);
             KullaniciTextBox.TabIndex = 3;
             KullaniciTextBox.Text = "Kullanıcı Yönetimi";
             KullaniciTextBox.UseVisualStyleBackColor = true;
@@ -86,10 +82,9 @@
             // AyarlarTextBox
             // 
             AyarlarTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            AyarlarTextBox.Location = new Point(675, 40);
-            AyarlarTextBox.Margin = new Padding(3, 4, 3, 4);
+            AyarlarTextBox.Location = new Point(630, 73);
             AyarlarTextBox.Name = "AyarlarTextBox";
-            AyarlarTextBox.Size = new Size(147, 36);
+            AyarlarTextBox.Size = new Size(129, 27);
             AyarlarTextBox.TabIndex = 4;
             AyarlarTextBox.Text = "Ayarlar ve Güvenlik";
             AyarlarTextBox.UseVisualStyleBackColor = true;
@@ -97,16 +92,15 @@
             // 
             // Anasayfa
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
             Controls.Add(AyarlarTextBox);
             Controls.Add(KullaniciTextBox);
             Controls.Add(raporTextBox);
             Controls.Add(DepoTextBox);
             Controls.Add(MalzemeTextBox);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Anasayfa";
             Text = "Form2";
             ResumeLayout(false);
