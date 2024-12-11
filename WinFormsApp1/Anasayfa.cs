@@ -17,27 +17,27 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void RaporTextBox_Click(object sender, EventArgs e)
         {
             StokRaporları StokRaporları = new StokRaporları();
 
             StokRaporları.Show();
         }
 
-        private void MalzemeTextBox_Click(object sender, EventArgs e)
+        private void DepoTextBox_Click(object sender, EventArgs e)
         {
             Depoİslemleri Depoİslemleri = new Depoİslemleri();
 
             Depoİslemleri.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void KullaniciTextBox_Click(object sender, EventArgs e)
         {
             KullaniciYönetimi KullaniciYönetimi= new KullaniciYönetimi();
             KullaniciYönetimi.Show();
         }
 
-        private void MalzemeTextBox_Click_1(object sender, EventArgs e)
+        private void MalzemeTextBox_Click(object sender, EventArgs e)
         {
             MalzemeYönetimi MalzemeYönetimi = new MalzemeYönetimi();
 

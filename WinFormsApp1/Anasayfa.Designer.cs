@@ -30,7 +30,7 @@
         {
             MalzemeTextBox = new Button();
             DepoTextBox = new Button();
-            raporTextBox = new Button();
+            RaporTextBox = new Button();
             KullaniciTextBox = new Button();
             AyarlarTextBox = new Button();
             SuspendLayout();
@@ -44,7 +44,7 @@
             MalzemeTextBox.TabIndex = 0;
             MalzemeTextBox.Text = "Malzeme Yönetimi";
             MalzemeTextBox.UseVisualStyleBackColor = true;
-            MalzemeTextBox.Click += MalzemeTextBox_Click_1;
+            MalzemeTextBox.Click += MalzemeTextBox_Click;
             // 
             // DepoTextBox
             // 
@@ -55,18 +55,18 @@
             DepoTextBox.TabIndex = 1;
             DepoTextBox.Text = "Depo İşlemleri";
             DepoTextBox.UseVisualStyleBackColor = true;
-            DepoTextBox.Click += MalzemeTextBox_Click;
+            DepoTextBox.Click += DepoTextBox_Click;
             // 
-            // raporTextBox
+            // RaporTextBox
             // 
-            raporTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            raporTextBox.Location = new Point(339, 30);
-            raporTextBox.Name = "raporTextBox";
-            raporTextBox.Size = new Size(120, 27);
-            raporTextBox.TabIndex = 2;
-            raporTextBox.Text = "Stok Raporları";
-            raporTextBox.UseVisualStyleBackColor = true;
-            raporTextBox.Click += button3_Click;
+            RaporTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            RaporTextBox.Location = new Point(339, 30);
+            RaporTextBox.Name = "RaporTextBox";
+            RaporTextBox.Size = new Size(120, 27);
+            RaporTextBox.TabIndex = 2;
+            RaporTextBox.Text = "Stok Raporları";
+            RaporTextBox.UseVisualStyleBackColor = true;
+            RaporTextBox.Click += RaporTextBox_Click;
             // 
             // KullaniciTextBox
             // 
@@ -77,7 +77,7 @@
             KullaniciTextBox.TabIndex = 3;
             KullaniciTextBox.Text = "Kullanıcı Yönetimi";
             KullaniciTextBox.UseVisualStyleBackColor = true;
-            KullaniciTextBox.Click += button4_Click;
+            KullaniciTextBox.Click += KullaniciTextBox_Click;
             // 
             // AyarlarTextBox
             // 
@@ -98,7 +98,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(AyarlarTextBox);
             Controls.Add(KullaniciTextBox);
-            Controls.Add(raporTextBox);
+            Controls.Add(RaporTextBox);
             Controls.Add(DepoTextBox);
             Controls.Add(MalzemeTextBox);
             Name = "Anasayfa";
@@ -110,7 +110,7 @@
 
         private Button MalzemeTextBox;
         private Button DepoTextBox;
-        private Button raporTextBox;
+        private Button RaporTextBox;
         private Button KullaniciTextBox;
         private Button AyarlarTextBox;
     }
