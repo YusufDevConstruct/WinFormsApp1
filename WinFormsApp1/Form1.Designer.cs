@@ -77,7 +77,7 @@
             // girisButton
             // 
             girisButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            girisButton.Location = new Point(261, 76);
+            girisButton.Location = new Point(261, 73);
             girisButton.Name = "girisButton";
             girisButton.Size = new Size(93, 26);
             girisButton.TabIndex = 7;
