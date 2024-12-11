@@ -28,47 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
+            MalzemeekleTextBox = new Button();
+            MalzemesilTextBox = new Button();
             button3 = new Button();
+            button4 = new Button();
             SuspendLayout();
             // 
-            // button1
+            // MalzemeekleTextBox
             // 
-            button1.Location = new Point(33, 17);
-            button1.Name = "button1";
-            button1.Size = new Size(109, 32);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            MalzemeekleTextBox.Location = new Point(147, 12);
+            MalzemeekleTextBox.Name = "MalzemeekleTextBox";
+            MalzemeekleTextBox.Size = new Size(109, 72);
+            MalzemeekleTextBox.TabIndex = 0;
+            MalzemeekleTextBox.Text = "Malzeme Ekle";
+            MalzemeekleTextBox.UseVisualStyleBackColor = true;
+            MalzemeekleTextBox.Click += button1_Click;
             // 
-            // button2
+            // MalzemesilTextBox
             // 
-            button2.Location = new Point(148, 17);
-            button2.Name = "button2";
-            button2.Size = new Size(109, 32);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            MalzemesilTextBox.Location = new Point(262, 12);
+            MalzemesilTextBox.Name = "MalzemesilTextBox";
+            MalzemesilTextBox.Size = new Size(109, 72);
+            MalzemesilTextBox.TabIndex = 1;
+            MalzemesilTextBox.Text = "Malzeme Sil";
+            MalzemesilTextBox.UseVisualStyleBackColor = true;
+            MalzemesilTextBox.Click += this.button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(272, 17);
+            button3.Location = new Point(377, 12);
             button3.Name = "button3";
-            button3.Size = new Size(109, 32);
+            button3.Size = new Size(109, 72);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "Malzeme Güncelle";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += this.button3_Click;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(492, 12);
+            button4.Name = "button4";
+            button4.Size = new Size(109, 72);
+            button4.TabIndex = 3;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // MalzemeYönetimi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(MalzemesilTextBox);
+            Controls.Add(MalzemeekleTextBox);
             Name = "MalzemeYönetimi";
             Text = "Form3";
             ResumeLayout(false);
@@ -76,8 +90,9 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
+        private Button MalzemeekleTextBox;
+        private Button MalzemesilTextBox;
         private Button button3;
+        private Button button4;
     }
 }
