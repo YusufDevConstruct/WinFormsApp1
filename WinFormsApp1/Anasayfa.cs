@@ -31,5 +31,13 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void MalzemeTextBox_Click_1(object sender, EventArgs e)
+        {
+            MalzemeYönetimi MalzemeYönetimi = new MalzemeYönetimi();
+
+            // Yeni formu göster
+            MalzemeYönetimi.Show();
+        }
     }
 }
