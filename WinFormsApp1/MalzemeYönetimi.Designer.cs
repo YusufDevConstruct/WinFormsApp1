@@ -32,7 +32,8 @@ namespace WinFormsApp1
             MalzemeekleTextBox = new Button();
             MalzemesilTextBox = new Button();
             button3 = new Button();
-            button4 = new Button();
+            StokMiktarTextBox = new Button();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             SuspendLayout();
             // 
             // MalzemeekleTextBox
@@ -53,7 +54,7 @@ namespace WinFormsApp1
             MalzemesilTextBox.TabIndex = 1;
             MalzemesilTextBox.Text = "Malzeme Sil";
             MalzemesilTextBox.UseVisualStyleBackColor = true;
-            MalzemesilTextBox.Click += this.button2_Click;
+            MalzemesilTextBox.Click += button2_Click;
             // 
             // button3
             // 
@@ -63,24 +64,24 @@ namespace WinFormsApp1
             button3.TabIndex = 2;
             button3.Text = "Malzeme Güncelle";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += this.button3_Click;
+            button3.Click += button3_Click;
             // 
-            // button4
+            // StokMiktarTextBox
             // 
-            button4.Location = new Point(492, 12);
-            button4.Name = "button4";
-            button4.Size = new Size(109, 72);
-            button4.TabIndex = 3;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            StokMiktarTextBox.Location = new Point(492, 12);
+            StokMiktarTextBox.Name = "StokMiktarTextBox";
+            StokMiktarTextBox.Size = new Size(109, 72);
+            StokMiktarTextBox.TabIndex = 3;
+            StokMiktarTextBox.Text = "Stok Miktarını Kontrol Et";
+            StokMiktarTextBox.UseVisualStyleBackColor = true;
+            StokMiktarTextBox.Click += button4_Click;
             // 
             // MalzemeYönetimi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button4);
+            Controls.Add(StokMiktarTextBox);
             Controls.Add(button3);
             Controls.Add(MalzemesilTextBox);
             Controls.Add(MalzemeekleTextBox);
@@ -104,6 +105,7 @@ namespace WinFormsApp1
         private Button MalzemeekleTextBox;
         private Button MalzemesilTextBox;
         private Button button3;
-        private Button button4;
+        private Button StokMiktarTextBox;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
