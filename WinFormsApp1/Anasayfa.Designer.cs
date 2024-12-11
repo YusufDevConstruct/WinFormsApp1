@@ -3,12 +3,12 @@
     partial class Anasayfa
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,103 +23,92 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            label2 = new Label();
-            label1 = new Label();
-            nameTextBox = new TextBox();
-            PasswordTextBox = new TextBox();
-            girisButton = new Button();
-            kayitButton = new Button();
+            MalzemeTextBox = new Button();
+            DepoTextBox = new Button();
+            raporTextBox = new Button();
+            KullaniciTextBox = new Button();
+            AyarlarTextBox = new Button();
             SuspendLayout();
             // 
-            // label2
+            // MalzemeTextBox
             // 
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label2.AutoSize = true;
-            label2.Location = new Point(61, 108);
-            label2.Name = "label2";
-            label2.Size = new Size(40, 15);
-            label2.TabIndex = 11;
-            label2.Text = "Parola";
+            MalzemeTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            MalzemeTextBox.Location = new Point(87, 30);
+            MalzemeTextBox.Name = "MalzemeTextBox";
+            MalzemeTextBox.Size = new Size(120, 27);
+            MalzemeTextBox.TabIndex = 0;
+            MalzemeTextBox.Text = "Malzeme Yönetimi";
+            MalzemeTextBox.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // DepoTextBox
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label1.AutoSize = true;
-            label1.Location = new Point(61, 79);
-            label1.Name = "label1";
-            label1.Size = new Size(73, 15);
-            label1.TabIndex = 10;
-            label1.Text = "Kullanıcı Adı";
+            DepoTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            DepoTextBox.Location = new Point(213, 30);
+            DepoTextBox.Name = "DepoTextBox";
+            DepoTextBox.Size = new Size(120, 27);
+            DepoTextBox.TabIndex = 1;
+            DepoTextBox.Text = "Depo İşlemleri";
+            DepoTextBox.UseVisualStyleBackColor = true;
+            DepoTextBox.Click += MalzemeTextBox_Click;
             // 
-            // nameTextBox
+            // raporTextBox
             // 
-            nameTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            nameTextBox.Location = new Point(140, 76);
-            nameTextBox.Name = "nameTextBox";
-            nameTextBox.Size = new Size(92, 23);
-            nameTextBox.TabIndex = 9;
-            nameTextBox.TextChanged += nameTextBox_TextChanged;
+            raporTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            raporTextBox.Location = new Point(339, 30);
+            raporTextBox.Name = "raporTextBox";
+            raporTextBox.Size = new Size(120, 27);
+            raporTextBox.TabIndex = 2;
+            raporTextBox.Text = "Stok Raporları";
+            raporTextBox.UseVisualStyleBackColor = true;
+            raporTextBox.Click += button3_Click;
             // 
-            // PasswordTextBox
+            // KullaniciTextBox
             // 
-            PasswordTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            PasswordTextBox.Location = new Point(140, 105);
-            PasswordTextBox.Name = "PasswordTextBox";
-            PasswordTextBox.Size = new Size(92, 23);
-            PasswordTextBox.TabIndex = 8;
-            PasswordTextBox.UseSystemPasswordChar = true;
+            KullaniciTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            KullaniciTextBox.Location = new Point(465, 30);
+            KullaniciTextBox.Name = "KullaniciTextBox";
+            KullaniciTextBox.Size = new Size(120, 27);
+            KullaniciTextBox.TabIndex = 3;
+            KullaniciTextBox.Text = "Kullanıcı Yönetimi";
+            KullaniciTextBox.UseVisualStyleBackColor = true;
+            KullaniciTextBox.Click += button4_Click;
             // 
-            // girisButton
+            // AyarlarTextBox
             // 
-            girisButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            girisButton.Location = new Point(261, 73);
-            girisButton.Name = "girisButton";
-            girisButton.Size = new Size(93, 26);
-            girisButton.TabIndex = 7;
-            girisButton.Text = "Giriş Yap";
-            girisButton.UseVisualStyleBackColor = true;
-            girisButton.Click += girisButton_Click;
+            AyarlarTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            AyarlarTextBox.Location = new Point(591, 30);
+            AyarlarTextBox.Name = "AyarlarTextBox";
+            AyarlarTextBox.Size = new Size(120, 27);
+            AyarlarTextBox.TabIndex = 4;
+            AyarlarTextBox.Text = "Ayarlar ve Güvenlik";
+            AyarlarTextBox.UseVisualStyleBackColor = true;
             // 
-            // kayitButton
-            // 
-            kayitButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            kayitButton.Location = new Point(261, 108);
-            kayitButton.Name = "kayitButton";
-            kayitButton.Size = new Size(93, 26);
-            kayitButton.TabIndex = 6;
-            kayitButton.Text = "Kayıt Ol";
-            kayitButton.UseVisualStyleBackColor = true;
-            // 
-            // Form1
+            // Anasayfa
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(435, 201);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(nameTextBox);
-            Controls.Add(PasswordTextBox);
-            Controls.Add(girisButton);
-            Controls.Add(kayitButton);
-            Name = "Form1";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            ClientSize = new Size(800, 450);
+            Controls.Add(AyarlarTextBox);
+            Controls.Add(KullaniciTextBox);
+            Controls.Add(raporTextBox);
+            Controls.Add(DepoTextBox);
+            Controls.Add(MalzemeTextBox);
+            Name = "Anasayfa";
+            Text = "Form2";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label2;
-        private Label label1;
-        private TextBox nameTextBox;
-        private TextBox PasswordTextBox;
-        private Button girisButton;
-        private Button kayitButton;
+        private Button MalzemeTextBox;
+        private Button DepoTextBox;
+        private Button raporTextBox;
+        private Button KullaniciTextBox;
+        private Button AyarlarTextBox;
     }
 }
