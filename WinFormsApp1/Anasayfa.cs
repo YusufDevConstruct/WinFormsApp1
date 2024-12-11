@@ -19,17 +19,22 @@ namespace WinFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
+            StokRaporları StokRaporları = new StokRaporları();
 
+            StokRaporları.Show();
         }
 
         private void MalzemeTextBox_Click(object sender, EventArgs e)
         {
+            Depoİslemleri Depoİslemleri = new Depoİslemleri();
 
+            Depoİslemleri.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            KullaniciYönetimi KullaniciYönetimi= new KullaniciYönetimi();
+            KullaniciYönetimi.Show();
         }
 
         private void MalzemeTextBox_Click_1(object sender, EventArgs e)

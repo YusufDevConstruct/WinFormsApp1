@@ -82,7 +82,7 @@
             // AyarlarTextBox
             // 
             AyarlarTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            AyarlarTextBox.Location = new Point(630, 73);
+            AyarlarTextBox.Location = new Point(591, 30);
             AyarlarTextBox.Name = "AyarlarTextBox";
             AyarlarTextBox.Size = new Size(129, 27);
             AyarlarTextBox.TabIndex = 4;
