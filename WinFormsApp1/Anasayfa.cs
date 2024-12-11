@@ -39,5 +39,11 @@ namespace WinFormsApp1
             // Yeni formu göster
             MalzemeYönetimi.Show();
         }
+
+        private void AyarlarTextBox_Click(object sender, EventArgs e)
+        {
+            Ayarlar_ve_Güvenlik Ayarlar_ve_Güvenlik = new Ayarlar_ve_Güvenlik();
+            Ayarlar_ve_Güvenlik.Show();
+        }
     }
 }
