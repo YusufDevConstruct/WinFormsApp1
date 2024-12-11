@@ -40,7 +40,7 @@
             KullaniciEkleTextBox.Name = "KullaniciEkleTextBox";
             KullaniciEkleTextBox.Size = new Size(122, 55);
             KullaniciEkleTextBox.TabIndex = 0;
-            KullaniciEkleTextBox.Text = "KullanıcıEkle";
+            KullaniciEkleTextBox.Text = "Kullanıcı Ekle";
             KullaniciEkleTextBox.UseVisualStyleBackColor = true;
             // 
             // KullanıcıSilTextBox
@@ -49,7 +49,7 @@
             KullanıcıSilTextBox.Name = "KullanıcıSilTextBox";
             KullanıcıSilTextBox.Size = new Size(122, 55);
             KullanıcıSilTextBox.TabIndex = 1;
-            KullanıcıSilTextBox.Text = "KullanıcıSil";
+            KullanıcıSilTextBox.Text = "Kullanıcı Sil";
             KullanıcıSilTextBox.UseVisualStyleBackColor = true;
             // 
             // YetkiDuzenleTextBox
@@ -58,7 +58,7 @@
             YetkiDuzenleTextBox.Name = "YetkiDuzenleTextBox";
             YetkiDuzenleTextBox.Size = new Size(122, 55);
             YetkiDuzenleTextBox.TabIndex = 2;
-            YetkiDuzenleTextBox.Text = "YetkiDüzenle";
+            YetkiDuzenleTextBox.Text = "Yetki Düzenle";
             YetkiDuzenleTextBox.UseVisualStyleBackColor = true;
             // 
             // HesapAyarlariTextBox
@@ -67,7 +67,7 @@
             HesapAyarlariTextBox.Name = "HesapAyarlariTextBox";
             HesapAyarlariTextBox.Size = new Size(122, 55);
             HesapAyarlariTextBox.TabIndex = 3;
-            HesapAyarlariTextBox.Text = "HesapAyarları";
+            HesapAyarlariTextBox.Text = "Hesap Ayarları";
             HesapAyarlariTextBox.UseVisualStyleBackColor = true;
             // 
             // KullaniciYönetimi
