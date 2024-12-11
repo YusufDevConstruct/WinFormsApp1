@@ -1,4 +1,5 @@
-﻿namespace WinFormsApp1
+﻿
+namespace WinFormsApp1
 {
     partial class MalzemeYönetimi
     {
@@ -86,6 +87,16 @@
             Name = "MalzemeYönetimi";
             Text = "Form3";
             ResumeLayout(false);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
