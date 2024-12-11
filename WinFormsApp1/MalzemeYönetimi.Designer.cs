@@ -71,7 +71,7 @@ namespace WinFormsApp1
             // 
             // StokMiktarTextBox
             // 
-            StokMiktarTextBox.Location = new Point(668, 261);
+            StokMiktarTextBox.Location = new Point(562, 16);
             StokMiktarTextBox.Margin = new Padding(3, 4, 3, 4);
             StokMiktarTextBox.Name = "StokMiktarTextBox";
             StokMiktarTextBox.Size = new Size(125, 96);
