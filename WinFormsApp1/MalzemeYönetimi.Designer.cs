@@ -29,28 +29,30 @@ namespace WinFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            MalzemeekleTextBox = new Button();
+            MalzemeEkleTextBox = new Button();
             MalzemesilTextBox = new Button();
             button3 = new Button();
             StokMiktarTextBox = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             SuspendLayout();
             // 
-            // MalzemeekleTextBox
+            // MalzemeEkleTextBox
             // 
-            MalzemeekleTextBox.Location = new Point(147, 12);
-            MalzemeekleTextBox.Name = "MalzemeekleTextBox";
-            MalzemeekleTextBox.Size = new Size(109, 72);
-            MalzemeekleTextBox.TabIndex = 0;
-            MalzemeekleTextBox.Text = "Malzeme Ekle";
-            MalzemeekleTextBox.UseVisualStyleBackColor = true;
-            MalzemeekleTextBox.Click += button1_Click;
+            MalzemeEkleTextBox.Location = new Point(168, 16);
+            MalzemeEkleTextBox.Margin = new Padding(3, 4, 3, 4);
+            MalzemeEkleTextBox.Name = "MalzemeEkleTextBox";
+            MalzemeEkleTextBox.Size = new Size(125, 96);
+            MalzemeEkleTextBox.TabIndex = 0;
+            MalzemeEkleTextBox.Text = "Malzeme Ekle";
+            MalzemeEkleTextBox.UseVisualStyleBackColor = true;
+            MalzemeEkleTextBox.Click += button1_Click;
             // 
             // MalzemesilTextBox
             // 
-            MalzemesilTextBox.Location = new Point(262, 12);
+            MalzemesilTextBox.Location = new Point(299, 16);
+            MalzemesilTextBox.Margin = new Padding(3, 4, 3, 4);
             MalzemesilTextBox.Name = "MalzemesilTextBox";
-            MalzemesilTextBox.Size = new Size(109, 72);
+            MalzemesilTextBox.Size = new Size(125, 96);
             MalzemesilTextBox.TabIndex = 1;
             MalzemesilTextBox.Text = "Malzeme Sil";
             MalzemesilTextBox.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@ namespace WinFormsApp1
             // 
             // button3
             // 
-            button3.Location = new Point(377, 12);
+            button3.Location = new Point(431, 16);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(109, 72);
+            button3.Size = new Size(125, 96);
             button3.TabIndex = 2;
             button3.Text = "Malzeme Güncelle";
             button3.UseVisualStyleBackColor = true;
@@ -68,9 +71,10 @@ namespace WinFormsApp1
             // 
             // StokMiktarTextBox
             // 
-            StokMiktarTextBox.Location = new Point(492, 12);
+            StokMiktarTextBox.Location = new Point(562, 16);
+            StokMiktarTextBox.Margin = new Padding(3, 4, 3, 4);
             StokMiktarTextBox.Name = "StokMiktarTextBox";
-            StokMiktarTextBox.Size = new Size(109, 72);
+            StokMiktarTextBox.Size = new Size(125, 96);
             StokMiktarTextBox.TabIndex = 3;
             StokMiktarTextBox.Text = "Stok Miktarını Kontrol Et";
             StokMiktarTextBox.UseVisualStyleBackColor = true;
@@ -78,13 +82,14 @@ namespace WinFormsApp1
             // 
             // MalzemeYönetimi
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(StokMiktarTextBox);
             Controls.Add(button3);
             Controls.Add(MalzemesilTextBox);
-            Controls.Add(MalzemeekleTextBox);
+            Controls.Add(MalzemeEkleTextBox);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MalzemeYönetimi";
             Text = "Form3";
             ResumeLayout(false);
@@ -102,7 +107,8 @@ namespace WinFormsApp1
 
         #endregion
 
-        private Button MalzemeekleTextBox;
+        private Button MalzemeEkleTextBox;
+
         private Button MalzemesilTextBox;
         private Button button3;
         private Button StokMiktarTextBox;
